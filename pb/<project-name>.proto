@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+option go_package = "github.com/navaz-alani/<project-name>/pb";
+
+package pb;
