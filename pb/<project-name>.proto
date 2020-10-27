@@ -1,5 +1,8 @@
 syntax = "proto3";
 
-option go_package = "github.com/navaz-alani/<project-name>/pb";
+option go_package = "github.com/<username>/<project-name>/pb";
 
 package pb;
+
+service <project-name> {
+}

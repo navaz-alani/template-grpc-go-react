@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/navaz-alani/<project-name>/pb/go/pb"
+	"github.com/<username>/<project-name>/pb/go/pb"
 	"google.golang.org/grpc"
 )
 
@@ -27,6 +27,6 @@ func main() {
   var opts []grpc.ServerOption
   grpcServer := grpc.NewServer(opts...)
   // TODO: implement newServer() in package main
-	pb.RegisterShortenerServer(grpcServer, newServer())
+	pb.Register<ProjectName>Server(grpcServer, NewServer())
 	grpcServer.Serve(listener)
 }

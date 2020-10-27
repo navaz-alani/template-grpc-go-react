@@ -1,4 +1,4 @@
-module github.com/navaz-alani/<project-name>
+module github.com/<username>/<project-name>
 
 go 1.14
 
